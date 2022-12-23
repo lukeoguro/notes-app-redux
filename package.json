@@ -40,6 +40,11 @@
       "last 1 safari version"
     ]
   },
+  "jest": {
+    "moduleNameMapper": {
+      "axios": "axios/dist/node/axios.cjs"
+    }
+  },
   "devDependencies": {
     "deep-freeze": "^0.0.1",
     "json-server": "^0.17.1"
